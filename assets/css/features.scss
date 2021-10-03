@@ -1,0 +1,30 @@
+@import "colors";
+
+.features {
+    background-color: $blue;
+    padding-top: 4.375rem;
+    padding-bottom: 8.75rem;
+    .wrapper {
+        width: 51.25rem;
+        margin: 0 auto;
+
+        ul {
+            flex-wrap: wrap;
+            li {
+                color: $white;
+                display: block;
+                width: 25rem;
+                h4 {
+                    text-transform: uppercase;
+                    margin-bottom: 1.875rem;
+                    &.robar{
+                        margin-top: 3.75rem;
+                    }
+                }
+                p {
+                    line-height: 1.625rem;
+                }
+            }
+        }
+    }
+}
