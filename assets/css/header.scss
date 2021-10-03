@@ -1,0 +1,94 @@
+@import "colors";
+
+.header {
+    background: url("../../assets/images/bg1.jpg") left top no-repeat;
+    background-size: cover;
+    // min-height: 100vh;
+    height: 55.625rem;
+
+    .container {
+        .wrapper {
+            justify-content: space-between;
+            height: 6.437rem;
+            border-bottom: 2px solid #412f3c;
+            margin-bottom: 17.187rem;
+            .logo {
+                .logo1 {
+                    height: 1.25rem;
+                    margin: auto 0;
+                }
+                .logo2 {
+                    height: 0.687rem;
+                    margin: auto 0 auto 0.625rem;
+                }
+            }
+
+            nav {
+                ul {
+                    justify-content: space-between;
+                    gap: 3.125rem;
+                    li {
+                        display: inline-block;
+
+                        a {
+                            display: block;
+                            line-height: 6.125rem;
+                            font-size: 0.812rem;
+                            border-bottom: 3px solid transparent;
+                            text-align: center;
+                            transition: border-color 0.1s ease-in-out;
+                            &:hover {
+                                border-color: $white;
+                            }
+                        }
+                    }
+                }
+                form {
+                    margin-left: 1.562rem;
+                    line-height: 6.125rem;
+
+                    input {
+                        width: 13.75rem;
+                        height: 2.5rem;
+                        border-radius: 1.15rem;
+                        padding: 0 0.875rem;
+                        &:focus {
+                            outline: none;
+                        }
+
+                        &::placeholder {
+                            color: #626262;
+                            font-size: 0.75rem;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+        }
+        .text {
+            width: 31.875rem;
+            text-align: right;
+            color: $white;
+            h1 {
+                font-weight: 300;
+                font-size: 3.125rem;
+                margin-bottom: 3.125rem;
+            }
+            a {
+                display: inline-block;
+                width: 17.5rem;
+                height: 3.75rem;
+                line-height: 3.75rem;
+                font-weight: bold;
+                background-color: #8824cd;
+                text-align: center;
+                text-transform: capitalize;
+                border-radius: 1.875rem;
+            }
+            p {
+                margin-top: 1.25rem;
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
