@@ -1,0 +1,12 @@
+@import "colors";
+
+footer {
+    background-color: $blue;
+padding: 2rem 0;
+    .container {
+        color: $white;
+        p {
+            font-size: 0.75rem;
+        }
+    }
+}
