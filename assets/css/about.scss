@@ -1,0 +1,31 @@
+@import "colors";
+
+.about {
+    background: url("../../assets/images/bg4.jpg") left top no-repeat;
+    height: 29.25rem;
+    .container {
+        justify-content: flex-end;
+        
+        .wrapper {
+            display: block;
+            width: 660px;
+            color: $blue2;
+
+            h4 {
+                text-transform: uppercase;
+                font-size: 0.937rem;
+                margin-bottom: 1rem;
+                padding-top: 5.625rem;
+            }
+            .text1 {
+                font-size: 1.187rem;
+                line-height: 1.937rem;
+                margin-bottom: 2rem;
+            }
+            .text2 {
+                font-size: 0.937rem;
+                line-height: 1.625rem;
+            }
+        }
+    }
+}
