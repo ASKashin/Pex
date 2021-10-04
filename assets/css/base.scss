@@ -1,0 +1,38 @@
+@import "colors";
+
+.base {
+    background: url("../../assets/images/bg5.jpg") left top no-repeat;
+    background-size: cover;
+    height: 34.375rem;
+    padding-top: 11.25rem;
+    .container {
+        text-align: center;
+        color: $white;
+        h3 {
+            font-weight: 300;
+            margin-bottom: 1.562rem;
+        }
+        .text1 {
+            font-size: 1.25rem;
+            color: #a87bb7;
+            line-height: 2.062rem;
+            margin-bottom: 1.562rem;
+        }
+        a {
+            display: inline-block;
+            width: 280px;
+            height: 60px;
+            line-height: 60px;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            background-color: $purple;
+            text-align: center;
+            text-transform: capitalize;
+            border-radius: 1.875rem;
+            font-size: 1.125rem;
+        }
+        .text2 {
+            font-size: 0.75rem;
+        }
+    }
+}

@@ -71,7 +71,6 @@
                 color: $white;
                 h1 {
                     font-weight: 300;
-                    font-size: 3.125rem;
                     margin-bottom: 3.125rem;
                 }
                 a {
@@ -80,10 +79,11 @@
                     height: 3.75rem;
                     line-height: 3.75rem;
                     font-weight: bold;
-                    background-color: #8824cd;
+                    background-color: $purple;
                     text-align: center;
                     text-transform: capitalize;
                     border-radius: 1.875rem;
+                    font-size: 1.125rem;
                 }
                 p {
                     margin-top: 1.25rem;
