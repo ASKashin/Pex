@@ -1,0 +1,28 @@
+@import "colors";
+
+.about2 {
+    background: url("../../assets/images/bg7.jpg") right top no-repeat;
+    height: 29.25rem;
+    .container {
+        .wrapper {
+            display: block;
+            width: 41.25rem;
+            color: $blue2;
+
+            h4 {
+                text-transform: uppercase;
+                margin-bottom: 1rem;
+                padding-top: 5.625rem;
+            }
+            .text1 {
+                font-size: 1.187rem;
+                line-height: 1.937rem;
+                margin-bottom: 2rem;
+            }
+            .text2 {
+                font-size: 0.937rem;
+                line-height: 1.625rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import "colors";
+
+.contact{
+    background-color: $pink;
+    padding-top:4.375rem;
+    padding-bottom:4.375rem;
+    .container{
+        .wrapper{
+            width: 28rem;
+            color: $white;
+            h4{
+                text-transform: uppercase;
+                margin-bottom: 1rem;
+
+            }
+            p{
+                font-size: 0.937rem;
+                line-height: 2.25rem;
+
+            }
+            a{
+                text-decoration: underline;
+                margin-bottom: 1rem;
+                font-size: 0.937rem;
+            }
+        }
+    }
+}
