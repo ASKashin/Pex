@@ -1,0 +1,40 @@
+@import "colors";
+
+.feature-article {
+    background: url("../../assets/images/bg6.jpg") left top no-repeat;
+    background-size: cover;
+    height: 41.875rem;
+    padding-top: 22.5rem;
+    .container {
+        .wrapper {
+            width: 33rem;
+            .photo {
+                display: block;
+                width: 8.473rem;
+                height: 2.187rem;
+                border: 2px solid $white;
+                border-radius: 1rem;
+                text-align: center;
+                font-size: 0.812rem;
+                line-height: 2.187rem;
+                font-weight: 600;
+                margin-bottom: 1.562rem;
+            }
+            p {
+                color: $white;
+                font-size: 2.5rem;
+                line-height: 3.125rem;
+                margin-bottom: 1.562rem;
+            }
+            .author {
+                font-size: 0.812rem;
+                font-weight: 600;
+                line-height: 0rem;
+                div{
+                    padding-left: 1rem;
+                    line-height: 2.812rem;
+                }
+            }
+        }
+    }
+}
