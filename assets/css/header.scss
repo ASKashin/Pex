@@ -1,4 +1,5 @@
 @import "colors";
+@import "screen-sizes";
 
 .header {
     background: url("../../assets/images/bg1.jpg") left top no-repeat;
@@ -107,38 +108,38 @@
     }
 }
 
-$big-screen: 1170px;
-$medium-screen: 640px;
-$small-screen: 480px;
-
 @media (max-width: $big-screen) and (min-width: $medium-screen) {
-    .container {
-        width: $medium-screen !important;
+    .header {
+        .head {
+            .container {
+                width: $medium-screen !important;
 
-        .wrapper {
-            .logo {
-                display: none;
-            }
-            nav {
-                ul {
-                    gap: 1rem;
-                    li {
-                        a {
+                .wrapper {
+                    .logo {
+                        display: none;
+                    }
+                    nav {
+                        ul {
+                            gap: 2rem;
+                            li {
+                                a {
+                                }
+                            }
+                        }
+                        form {
+                            input {
+                            }
                         }
                     }
                 }
-                form {
-                    input {
+                .text {
+                    h1 {
+                    }
+                    a {
+                    }
+                    p {
                     }
                 }
-            }
-        }
-        .text {
-            h1 {
-            }
-            a {
-            }
-            p {
             }
         }
     }
