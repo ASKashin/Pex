@@ -19,6 +19,11 @@
                 line-height: 2.187rem;
                 font-weight: 600;
                 margin-bottom: 1.562rem;
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                    color:#000;
+                    background-color: $white;
+                }
             }
             p {
                 color: $white;

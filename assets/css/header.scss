@@ -84,6 +84,11 @@
                     text-transform: capitalize;
                     border-radius: 1.875rem;
                     font-size: 1.125rem;
+                    transition: all 0.3s ease-in-out;
+                    &:hover{
+                        opacity: 0.6;
+                        color: red;
+                    }
                 }
                 p {
                     margin-top: 1.25rem;
