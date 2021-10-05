@@ -46,7 +46,7 @@
                     form {
                         margin-left: 1.562rem;
                         line-height: 6.125rem;
-
+                        position: relative;
                         input {
                             width: 13.75rem;
                             height: 2.5rem;
@@ -61,6 +61,14 @@
                                 font-size: 0.75rem;
                                 text-transform: capitalize;
                             }
+                        }
+                        button {
+                            position: absolute;
+                            right: 0.687rem;
+                            top: 2.7rem;
+                            background-color: transparent;
+                            border: none;
+                            cursor: pointer;
                         }
                     }
                 }
@@ -85,7 +93,7 @@
                     border-radius: 1.875rem;
                     font-size: 1.125rem;
                     transition: all 0.3s ease-in-out;
-                    &:hover{
+                    &:hover {
                         opacity: 0.6;
                         color: red;
                     }
@@ -94,6 +102,43 @@
                     margin-top: 1.25rem;
                     font-size: 0.75rem;
                 }
+            }
+        }
+    }
+}
+
+$big-screen: 1170px;
+$medium-screen: 640px;
+$small-screen: 480px;
+
+@media (max-width: $big-screen) and (min-width: $medium-screen) {
+    .container {
+        width: $medium-screen !important;
+
+        .wrapper {
+            .logo {
+                display: none;
+            }
+            nav {
+                ul {
+                    gap: 1rem;
+                    li {
+                        a {
+                        }
+                    }
+                }
+                form {
+                    input {
+                    }
+                }
+            }
+        }
+        .text {
+            h1 {
+            }
+            a {
+            }
+            p {
             }
         }
     }
