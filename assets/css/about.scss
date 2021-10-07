@@ -2,7 +2,7 @@
 
 .about {
     background: url("../../assets/images/bg4.jpg") left top no-repeat;
-    height: 29.25rem;
+    padding: 5.625rem 0;
     .container {
         justify-content: flex-end;
         
@@ -14,7 +14,6 @@
             h4 {
                 text-transform: uppercase;
                 margin-bottom: 1rem;
-                padding-top: 5.625rem;
             }
             .text1 {
                 font-size: 1.187rem;
