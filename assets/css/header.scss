@@ -147,18 +147,20 @@
     }
 }
 
-@media (max-width: $medium-screen)  {
+@media (max-width: $medium-screen) {
     .header {
-
+        padding-bottom: 4rem;
         header {
             .container {
                 .wrapper {
                     .logo {
-
                     }
                     nav {
                         ul {
-
+                            display: none;
+                        }
+                        form {
+                            margin-left: 5rem;
                         }
                     }
                 }
@@ -167,15 +169,13 @@
         .container {
             width: 100% !important;
             .text {
-
+                margin: 1.187rem auto 0 auto;
+                text-align: center;
                 h1 {
-
                 }
                 a {
-
                 }
             }
         }
     }
 }
-
