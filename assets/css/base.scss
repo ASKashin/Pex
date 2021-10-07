@@ -1,10 +1,10 @@
 @import "colors";
 
 .base {
-    background: url("../../assets/images/bg5.jpg") left top no-repeat;
+    background: url("../../assets/images/bg5.jpg") center top no-repeat;
     background-size: cover;
-    height: 34.375rem;
     padding-top: 11.25rem;
+    padding-bottom: 7.5rem;
     .container {
         text-align: center;
         color: $white;
@@ -30,11 +30,10 @@
             text-transform: capitalize;
             border-radius: 1.875rem;
             font-size: 1.125rem;
-            transition: all 0.3s ease-in-out;
-            &:hover{
-                opacity: 0.6;
-                color: red;
-            }
+            transition: background-color 0.3s ease-in-out;
+                &:hover {
+                    background-color:#631f93;
+                }
         }
         .text2 {
             font-size: 0.75rem;
