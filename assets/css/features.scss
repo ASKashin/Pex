@@ -10,6 +10,7 @@
 
         ul {
             flex-wrap: wrap;
+            gap: 1.2rem;
             li {
                 color: $white;
                 display: block;
@@ -20,7 +21,7 @@
                 }
                 p {
                     line-height: 1.625rem;
-                    margin-bottom: 3.75rem;
+                    margin-bottom: 2.75rem;
                 }
             }
         }
