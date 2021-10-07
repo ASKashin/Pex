@@ -1,4 +1,5 @@
 @import "colors";
+@import "screen-sizes";
 
 .features {
     background-color: $blue;
@@ -22,6 +23,25 @@
                 p {
                     line-height: 1.625rem;
                     margin-bottom: 2.75rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $big-screen) and (min-width: $medium-screen) {
+    .features {
+        padding-top: 3.375rem;
+        padding-bottom: 1.75rem;
+        .wrapper {
+            width: $medium-screen !important;
+            padding-left: 0.3rem;
+            ul {
+                li {
+                    width: 19rem;
+                    p {
+                        margin-bottom: 1.5rem;
+                    }
                 }
             }
         }

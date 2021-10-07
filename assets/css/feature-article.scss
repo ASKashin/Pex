@@ -1,4 +1,5 @@
 @import "colors";
+@import "screen-sizes";
 
 .feature-article {
     background: url("../../assets/images/bg6.jpg") center top no-repeat;
@@ -41,5 +42,21 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width: $big-screen) and (min-width: $medium-screen) {
+    .feature-article {
+        padding-top: 9.5rem;
+        padding-bottom: 3.625rem;
+        .container {
+            width: $medium-screen !important;
+            .wrapper {
+
+                h3 {
+                    font-size: 1.8rem;
+                }
+            }
+        }   
     }
 }

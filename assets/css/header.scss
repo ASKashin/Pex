@@ -98,7 +98,7 @@
                 font-size: 1.125rem;
                 transition: background-color 0.3s ease-in-out;
                 &:hover {
-                    background-color:#631f93;
+                    background-color: #631f93;
                 }
             }
             p {
@@ -111,35 +111,36 @@
 
 @media (max-width: $big-screen) and (min-width: $medium-screen) {
     .header {
-        .head {
+        padding-bottom: 7rem;
+        header {
             .container {
                 width: $medium-screen !important;
-
                 .wrapper {
                     .logo {
                         display: none;
                     }
                     nav {
                         ul {
-                            gap: 2rem;
-                            li {
-                                a {
-                                }
-                            }
-                        }
-                        form {
-                            input {
-                            }
+                            gap: 2.4rem;
                         }
                     }
                 }
-                .text {
-                    h1 {
-                    }
-                    a {
-                    }
-                    p {
-                    }
+            }
+        }
+        .container {
+            width: $medium-screen !important;
+            .text {
+                margin-top: 5.187rem;
+                width: 16.875rem;
+                h1 {
+                    font-size: 1.5rem;
+                    margin-bottom: 1.5rem;
+                }
+                a {
+                    width: 10.5rem;
+                    height: 2.75rem;
+                    line-height: 2.75rem;
+                    font-size: 0.75rem;
                 }
             }
         }

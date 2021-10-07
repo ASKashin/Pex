@@ -1,11 +1,12 @@
 @import "colors";
+@import "screen-sizes";
 
 .about {
     background: url("../../assets/images/bg4.jpg") left top no-repeat;
     padding: 5.625rem 0;
     .container {
         justify-content: flex-end;
-        
+
         .wrapper {
             display: block;
             width: 41.25rem;
@@ -23,6 +24,26 @@
             .text {
                 font-size: 0.937rem;
                 line-height: 1.625rem;
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: $big-screen) and (min-width: $medium-screen) {
+    .about {
+        padding: 0.625rem 0;
+        .container {
+            width: $medium-screen !important;
+            .wrapper {
+                h4 {
+                }
+                .lead {
+                }
+                .text {
+                }
             }
         }
     }

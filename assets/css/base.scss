@@ -1,4 +1,5 @@
 @import "colors";
+@import "screen-sizes";
 
 .base {
     background: url("../../assets/images/bg5.jpg") center top no-repeat;
@@ -31,12 +32,31 @@
             border-radius: 1.875rem;
             font-size: 1.125rem;
             transition: background-color 0.3s ease-in-out;
-                &:hover {
-                    background-color:#631f93;
-                }
+            &:hover {
+                background-color: #631f93;
+            }
         }
         .text2 {
             font-size: 0.75rem;
+        }
+    }
+}
+
+@media (max-width: $big-screen) and (min-width: $medium-screen) {
+    .base {
+        padding-top: 7.25rem;
+        padding-bottom: 4.5rem;
+        .container {
+            width: $medium-screen !important;
+
+            a {
+                width: 10.5rem;
+                height: 2.75rem;
+                line-height: 2.75rem;
+                font-size: 0.8rem;
+            }
+            .text2 {
+            }
         }
     }
 }

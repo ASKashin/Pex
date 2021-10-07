@@ -1,12 +1,25 @@
 @import "colors";
+@import "screen-sizes";
 
 footer {
     background-color: $blue;
-padding: 2rem 0;
+    padding: 2rem 0;
     .container {
         color: $white;
         p {
             font-size: 0.75rem;
+        }
+    }
+}
+
+@media (max-width: $big-screen) and (min-width: $medium-screen) {
+    footer {
+        padding: 1rem 0;
+        .container {
+            width: $medium-screen !important;
+            p {
+                width: 29rem;
+            }
         }
     }
 }
