@@ -71,6 +71,12 @@
                             cursor: pointer;
                         }
                     }
+                    .small {
+                        display: none;
+                        position: relative;
+                        left: 1rem;
+                        top: 2.343rem;
+                    }
                 }
             }
         }
@@ -161,6 +167,9 @@
                         }
                         form {
                             margin-left: 5rem;
+                        }
+                        .small {
+                            display: block;
                         }
                     }
                 }
