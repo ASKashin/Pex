@@ -29,7 +29,7 @@
     }
 }
 
-@media (max-width: $big-screen) and (min-width: $medium-screen) {
+@media (max-width: $big-screen) {
     .features {
         padding-top: 3.375rem;
         padding-bottom: 1.75rem;
@@ -41,6 +41,29 @@
                     width: 19rem;
                     p {
                         margin-bottom: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $medium-screen) {
+    .features {
+        padding-top: 2.375rem;
+        padding-bottom: 1.75rem;
+        .wrapper {
+            width: 100% !important;
+            ul {
+                li {
+                    text-align: center;
+                    width: 22rem;
+                    padding-left: 0.6rem;
+                    h4 {
+                        margin-bottom: 0.875rem;
+                    }
+                    p {
+                        margin-bottom: 0.5rem;
                     }
                 }
             }

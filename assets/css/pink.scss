@@ -40,7 +40,7 @@
     }
 }
 
-@media (max-width: $big-screen) and (min-width: $medium-screen) {
+@media (max-width: $big-screen)  {
     .pink {
         padding-bottom: 3.187rem;
         padding-top: 4.687rem;
@@ -57,6 +57,19 @@
                 height: 2.75rem;
                 line-height: 2.75rem;
                 font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+@media (max-width: $medium-screen)  {
+    .pink {
+
+        .container {
+            width: 100% !important;
+
+            p {
+                width: 22.125rem;
             }
         }
     }

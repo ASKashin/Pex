@@ -45,18 +45,37 @@
     }
 }
 
-@media (max-width: $big-screen) and (min-width: $medium-screen) {
+@media (max-width: $big-screen) {
     .feature-article {
         padding-top: 9.5rem;
         padding-bottom: 3.625rem;
         .container {
             width: $medium-screen !important;
             .wrapper {
-
                 h3 {
                     font-size: 1.8rem;
                 }
             }
-        }   
+        }
+    }
+}
+
+@media (max-width: $medium-screen) {
+    .feature-article {
+        padding-bottom: 1.625rem;
+        .container {
+            width: 100% !important;
+            .wrapper {
+                width: 23rem;
+                text-align: center;
+                .photo {
+                    margin: 0 auto;
+                }
+                h3 {
+                    font-size: 1.187rem;
+                    margin: 0;
+                }
+            }
+        }
     }
 }

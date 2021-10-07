@@ -12,13 +12,27 @@ footer {
     }
 }
 
-@media (max-width: $big-screen) and (min-width: $medium-screen) {
+@media (max-width: $big-screen)  {
     footer {
         padding: 1rem 0;
         .container {
             width: $medium-screen !important;
             p {
                 width: 29rem;
+            }
+        }
+    }
+}
+
+@media (max-width: $medium-screen)  {
+    footer {
+
+        .container {
+            width: 100% !important;
+            text-align: center;
+            p {
+                width: 23rem;
+                padding-left: 0.5rem;
             }
         }
     }

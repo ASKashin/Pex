@@ -109,7 +109,7 @@
     }
 }
 
-@media (max-width: $big-screen) and (min-width: $medium-screen) {
+@media (max-width: $big-screen) {
     .header {
         padding-bottom: 7rem;
         header {
@@ -147,12 +147,11 @@
     }
 }
 
-@media (max-width: $medium-screen) and (min-width:$small-screen) {
+@media (max-width: $medium-screen)  {
     .header {
 
         header {
             .container {
-                width: $small-screen !important;
                 .wrapper {
                     .logo {
 
@@ -166,7 +165,7 @@
             }
         }
         .container {
-
+            width: 100% !important;
             .text {
 
                 h1 {

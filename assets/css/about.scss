@@ -32,7 +32,7 @@
 
 
 
-@media (max-width: $big-screen) and (min-width: $medium-screen) {
+@media (max-width: $big-screen) {
     .about {
         background-image: none;
         padding: 0.625rem 0;
@@ -45,6 +45,27 @@
                 .lead {
                 }
                 .text {
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $medium-screen) {
+    .about {
+        background-image: none;
+        padding: 1.625rem 0;
+        .container {
+            width: 100% !important;
+            .wrapper {
+                h4 {
+                }
+                .lead {
+                    padding: 0 0.5rem;
+                    margin-bottom: 1rem;
+                }
+                .text {
+                    padding: 0 0.5rem;
                 }
             }
         }

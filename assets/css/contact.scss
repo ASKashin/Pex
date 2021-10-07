@@ -25,12 +25,32 @@
     }
 }
 
-@media (max-width: $big-screen) and (min-width: $medium-screen) {
+@media (max-width: $big-screen)  {
     .contact {
         padding: 2.375rem 0;
         .container {
             width: $medium-screen !important;
             .wrapper {
+                h4 {
+                }
+                p {
+                }
+                a {
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $medium-screen)  {
+    .contact {
+        padding: 1.375rem 0;
+        .container {
+            width: 100% !important;
+            .wrapper {
+                text-align: center;
+                width: 23rem;
+                padding-left: 0.5rem;
                 h4 {
                 }
                 p {
