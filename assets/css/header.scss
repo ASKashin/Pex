@@ -2,17 +2,16 @@
 @import "screen-sizes";
 
 .header {
-    background: url("../../assets/images/bg1.jpg") left top no-repeat;
+    background: url("../../assets/images/bg1.jpg") center top no-repeat;
     background-size: cover;
-    height: 55.625rem;
+    padding-bottom: 16rem;
 
-    .head {
+    header {
         height: 6.437rem;
         border-bottom: 2px solid #412f3c;
         .container {
             .wrapper {
                 justify-content: space-between;
-                margin-bottom: 17.187rem;
                 .logo {
                     .logo1 {
                         height: 1.25rem;
@@ -74,35 +73,37 @@
                     }
                 }
             }
-            .text {
-                width: 31.875rem;
-                text-align: right;
-                color: $white;
-                h1 {
-                    font-weight: 300;
-                    margin-bottom: 3.125rem;
+        }
+    }
+    .container {
+        .text {
+            margin-top: 17.187rem;
+            width: 31.875rem;
+            text-align: right;
+            color: $white;
+            h1 {
+                font-weight: 300;
+                margin-bottom: 3.125rem;
+            }
+            a {
+                display: inline-block;
+                width: 17.5rem;
+                height: 3.75rem;
+                line-height: 3.75rem;
+                font-weight: bold;
+                background-color: $purple;
+                text-align: center;
+                text-transform: capitalize;
+                border-radius: 1.875rem;
+                font-size: 1.125rem;
+                transition: background-color 0.3s ease-in-out;
+                &:hover {
+                    background-color:#631f93;
                 }
-                a {
-                    display: inline-block;
-                    width: 17.5rem;
-                    height: 3.75rem;
-                    line-height: 3.75rem;
-                    font-weight: bold;
-                    background-color: $purple;
-                    text-align: center;
-                    text-transform: capitalize;
-                    border-radius: 1.875rem;
-                    font-size: 1.125rem;
-                    transition: all 0.3s ease-in-out;
-                    &:hover {
-                        opacity: 0.6;
-                        color: red;
-                    }
-                }
-                p {
-                    margin-top: 1.25rem;
-                    font-size: 0.75rem;
-                }
+            }
+            p {
+                margin-top: 1.25rem;
+                font-size: 0.75rem;
             }
         }
     }
