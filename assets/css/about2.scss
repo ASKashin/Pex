@@ -9,7 +9,6 @@
             display: block;
             width: 41.25rem;
             color: $blue2;
-
             h4 {
                 text-transform: uppercase;
                 margin-bottom: 1rem;
@@ -22,6 +21,25 @@
             .text {
                 font-size: 0.937rem;
                 line-height: 1.625rem;
+            }
+        }
+    }
+}
+
+@media (max-width: $big-screen) and (min-width: $medium-screen) {
+    .about2 {
+        background-image: none;
+        padding: 0.625rem 0;
+        .container {
+            width: $medium-screen !important;
+            .wrapper {
+                text-align: center;
+                h4 {
+                }
+                .lead {
+                }
+                .text {
+                }
             }
         }
     }

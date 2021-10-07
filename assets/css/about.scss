@@ -34,10 +34,12 @@
 
 @media (max-width: $big-screen) and (min-width: $medium-screen) {
     .about {
+        background-image: none;
         padding: 0.625rem 0;
         .container {
             width: $medium-screen !important;
             .wrapper {
+                text-align: center;
                 h4 {
                 }
                 .lead {
